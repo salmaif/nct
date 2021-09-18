@@ -1,0 +1,211 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(235, 232, 232);
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.navigator {
+    width: 75%;
+    height: 5%;
+    margin: auto;
+    position: relative; 
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 1% 0% 1% -12%;
+}
+
+.menu {
+    float: right; 
+    margin-right: -16%;  
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    line-height: 130%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    
+}
+
+nav ul li a {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    padding: 31px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+    opacity: 50%;
+}
+
+.img0 {
+    margin: auto;
+    width: 100%;;
+}
+
+.page1 > div {
+    width: 610px;
+    height: 400px;
+}
+
+.party {
+    float: left;
+    padding: 40px 70px 0px;
+    text-align: center;
+}
+
+.shortdesc {
+    float: right;
+    padding: 140px 50px 0px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.btn {
+    padding: 16px 30px;
+    font-size: 24px;
+    border-radius: 27px;
+    background: rgb(41, 40, 40);
+    color: whitesmoke;
+    border: 2px solid;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    margin: 10%;
+    background-color: white;
+}
+
+.units {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.units > div {
+    padding: 1% 1.8%;
+    margin: 1.4% 0.8%;
+    width: 300px;
+    height: auto;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.units > div:hover {
+    transform: scale(1.06);
+}
+
+.unitpics {
+    margin: auto;
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+}
+
+.music {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: auto;
+
+    padding-left: 30px;
+    padding-top: 0px;
+    justify-content: center;
+}
+
+.members > div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mpics {
+    width: 250px;
+    height: 370px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.soc {
+    width: 30px;
+    height: 30px;
+    padding-left: 2%;
+}
+
+.socmed {
+    float: right;
+    text-align: center;
+    margin-top: -0.4%;
+    padding: 0% 5%;
+    background-color:rgb(46, 45, 45);
+}
+
+.s {
+    margin: 15% -45%;
+    padding: 1% 3%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.sm {
+    width: 26px;
+    margin-top: -100px;
+    height: 26px;
+    padding-left: 2%;
+}
+
+.container > div {
+    margin: 2% 3% 0% 3%;
+    text-align: center;
+}
+
+.scn {
+    padding: 0%;
+}
+
+.scn > iframe{
+    width: 500px;
+    height: 300px;
+}
